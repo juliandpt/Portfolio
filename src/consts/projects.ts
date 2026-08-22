@@ -152,7 +152,12 @@ export const PROJECTS: Project[] = [
     shortDescription: 'App de banca digital de Caixabank',
     description:
       'Aplicación de banca digital desarrollada para CaixaBank, diseñada para ofrecer a los clientes una experiencia bancaria en línea fácil y segura. La aplicación permite a los usuarios gestionar sus cuentas, realizar transferencias, pagar facturas y acceder a una variedad de servicios financieros, todo respaldado por la seguridad y confiabilidad que caracteriza a CaixaBank.',
-    features: ['Migración de arquitectura', 'Servicio de desbloqueo de tarjetea mediante PIN.'],
+    features: [
+      'Migración de arquitectura',
+      'Servicio de desbloqueo de tarjetea mediante PIN.',
+      'Servicio de cancelación de tarjeta',
+      'Pago a final de mes',
+    ],
     isInProgress: true,
     image: {
       src: '/images/now-logo.webp',
